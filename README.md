@@ -1,7 +1,7 @@
 # Digital Innovation One
 
 <p align="center">
-  <img src="/imgs/DIO.PNG" alt="DIO" title="Digital Innovation One">
+  <img src="/imgs/DIO.png" alt="DIO" title="Digital Innovation One">
 </p>
 
 ## Bootcamp - Orbi Web Games Developer
