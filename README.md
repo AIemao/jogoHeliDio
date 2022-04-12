@@ -1,7 +1,7 @@
 # Digital Innovation One
 
 <p align="center">
-  <img src="/imgs/GIO.png" alt="DIO" title="Digital Innovation One">
+  <img src="/imgs/DIO.PNG" alt="DIO" title="Digital Innovation One">
 </p>
 
 ## Bootcamp - Orbi Web Games Developer
@@ -10,24 +10,17 @@ Desafio de Projeto - Construindo o seu primeiro jogo de naves
 
 ## Índice
 
-- [Visão geral](#visão geral)
-  - [Captura de tela](#captura de tela)
   - [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Construído com](#construído com)
   - [O que aprendi](#o-que-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento contínuo)
   - [Recursos úteis](#useful-resources)
 - [Autor](#autor)
 
 
 
-
-## Visão geral
-
 ### Captura de tela
 
-<img src="/imgs/PrintJogo.png" alt style="max-width: 100%">
+<img src="/imgs/PrintJogo.PNG" alt style="max-width: 100%">
 
 
 ### Links
