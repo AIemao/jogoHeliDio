@@ -76,7 +76,7 @@ function start() { // funcão start()
 
         if (jogo.pressionou[TECLA.W]) {
             var topo = parseInt($("#jogador").css("top"));
-            $("#jogador").css("top", topo - 10);
+            $("#jogador").css("top", topo - 10); // TOPO PAGINA
 
             //Limitando na div o heli
             if (topo <= 0) {
@@ -87,10 +87,7 @@ function start() { // funcão start()
 
             //Limitando na div o heli
 
-            if (topo >= 434) {
-                $("#jogador").css("top", topo - 20);
-
-            }
+            
 
         }
 
@@ -100,6 +97,11 @@ function start() { // funcão start()
             $("#jogador").css("top", topo + 10);
         }
 
+        if (topo >= 434) {
+            $("#jogador").css("top", topo - 20);
+
+        }
+
         if (jogo.pressionou[TECLA.D]) {
 
             //Chama função Disparo	
@@ -107,19 +109,19 @@ function start() { // funcão start()
         }
 
         //moveinimigo1() dentro da movejogador () por causa do disparo ()
-        function moveinimigo1() {
+        // function moveinimigo1() {
 
-            posicaoX = parseInt($("#inimigo1").css("left"));
-            $("#inimigo1").css("left", posicaoX - velocidade);
-            $("#inimigo1").css("top", posicaoY);
+        //     posicaoX = parseInt($("#inimigo1").css("left"));
+        //     $("#inimigo1").css("left", posicaoX - velocidade);
+        //     $("#inimigo1").css("top", posicaoY);
 
-            if (posicaoX <= 0) {
-                posicaoY = parseInt(Math.random() * 334);
-                $("#inimigo1").css("left", 694);
-                $("#inimigo1").css("top", posicaoY);
+        //     if (posicaoX <= 0) {
+        //         posicaoY = parseInt(Math.random() * 334);
+        //         $("#inimigo1").css("left", 694);
+        //         $("#inimigo1").css("top", posicaoY);
 
-            }
-        }
+        //     }
+        // }
 
     }
 
@@ -235,20 +237,20 @@ function start() { // funcão start()
         }
 
         // Disparo com o inimigo1
-        if (colisao3.length > 0) {
+        // if (colisao3.length > 0) {
 
 
-            inimigo1X = parseInt($("#inimigo1").css("left"));
-            inimigo1Y = parseInt($("#inimigo1").css("top"));
+        //     inimigo1X = parseInt($("#inimigo1").css("left"));
+        //     inimigo1Y = parseInt($("#inimigo1").css("top"));
 
-            explosao1(inimigo1X, inimigo1Y);
-            $("#disparo").css("left", 950);
+        //     explosao1(inimigo1X, inimigo1Y);
+        //     $("#disparo").css("left", 950);
 
-            posicaoY = parseInt(Math.random() * 334);
-            $("#inimigo1").css("left", 694);
-            $("#inimigo1").css("top", posicaoY);
+        //     posicaoY = parseInt(Math.random() * 334);
+        //     $("#inimigo1").css("left", 694);
+        //     $("#inimigo1").css("top", posicaoY);
 
-        }
+        // }
 
         // Disparo com o inimigo1		
         if (colisao3.length > 0) {
